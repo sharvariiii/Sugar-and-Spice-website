@@ -1,0 +1,165 @@
+*{
+  margin : 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ }  
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+	background:rgb(30,30,40);
+	font-family: 'Flamenco', cursive;
+}	
+header{
+	background-image: url('banner.jpg'); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	
+
+} 
+ .main-nav{
+	 float: right;
+	 margin-top: 60px;
+}
+.main-nav li{
+	 display: inline-block;
+	 list-style: none;
+	 margin-right: 40px;
+}	
+.main-nav li a{
+	padding: 5px 0;
+	 color: white;
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 font-size: 90%;
+	 font-weight: 100;
+}	
+ .main-nav li a:hover{
+	 border-bottom: 2px solid #CC6666;
+ }
+ 
+.main-content-header{
+ width: 1180px;
+ position: absolute;
+ top: 35%; 
+ margin-left: 40px;
+}
+h1,h2{
+ color: #fff;
+ font-size: 240%;
+ word-spacing: 5px;
+ letter-spacing: 3px;
+ margin-bottom: 20px;
+ text-transform: uppercase;
+ font-weight: lighter; 
+
+}	
+.btn{
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: lighter;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 200px;
+	
+}
+.btn-full{
+	background-color: transparent;
+	color: #CC6666;
+	margin-right: 15px;
+	border: 1px solid #CC6666;
+}
+.btn-full:hover{
+	background-color:white;
+}	
+.btn-nav{
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+}
+.btn-nav:hover{
+	background-color:#CC6666;
+}
+ 
+	 /* FOOTER */
+
+.footer-distributed{
+
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 20px sans-serif;
+	text-align: left;
+    padding: 50px 60px;
+	margin-top: 80px;
+	overflow: hidden;
+	font-family: 'Flamenco', cursive;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+/* Footer right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+/* The search form */
+
+.footer-distributed form{
+	position: relative;
+}
+
+.footer-distributed form input{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+	width: 500px;
+	padding: 18px 50px 18px 18px;
+}
+
+.footer-distributed form input:focus{
+	outline: none;
+}
+
+
+
+
+	
+
+
+  
